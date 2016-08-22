@@ -1,0 +1,204 @@
+body {
+  background:url(img/bg.png) top center repeat;
+  color:#333333;
+  font-family:sans, Arial;
+  font-size:14px;
+}
+a {
+  color:#333333;
+}
+#tudo {
+  width:92%;
+  margin:0 auto;
+}
+#menu {
+  text-align:right;
+  width:100%;
+  height:2em;
+  line-height:2em;
+  background-color:#EEEEEE;
+  margin-bottom:1em;
+}
+#menu ul li {
+  display:inline;
+}
+#menu ul li a {
+  padding:0.5em 5%;
+  text-decoration:none;
+}
+#menu ul li a:hover {
+  background-color:#DDDDDD;
+}
+#circulos {
+  margin:0 auto;
+  text-align:center;
+  width:94%;
+}
+#circulos .titulo {
+  text-transform:uppercase;
+}
+#circulos .tema, #circulos .logo {
+  float:left;
+  height:19%;
+  padding-right:1%;
+  position:relative;
+  text-align:center;
+  vertical-align:middle;
+  width:19%;
+}
+#circulos  img {
+  border:none;
+  margin:20%;
+  height:auto;
+  width:60%;
+}
+#circulos .tema img #icone {
+  fill: #ff0000;
+  stroke:#FFFFFF;
+}
+#circulos .img:hover {
+  box-shadow:3px 3px 3px;
+}
+#circulos .img {
+  background:#9e4136;
+  border-radius:50%;
+  box-shadow:3px 3px 0 #000000;
+  cursor:pointer;
+  height:100%;
+  margin:0 auto;
+  width:66%;
+}
+#circulos .logo .img {
+  background:#EEEEEE;
+}
+#circulos .tema .titulo {
+  line-height:1.5em;
+  height:1.5em;
+  padding:0.75em 0 1.1em 0;
+}
+#indica {
+  background:#EEEEEE;
+  float:right;
+  width:39.1%;
+}
+.indica p {
+  font-size:0.8em;
+  line-height:1.25em;
+  margin:0em 4% 1em 4%;
+}
+input, textarea {
+  background:#9e4136;
+  border:none;
+  border-radius:0.75em;
+  color:#CCCCCC;
+  height:2.3em;
+  width:90%;
+  margin:0em 4% 1em 4%;
+  padding:0.1em 0.7em;
+}
+textarea {
+  height:6.9em;
+}
+input.botao {
+  width:25%;
+}
+.popup {
+  background:rgba(0,0,0,0.8);
+  display:none;
+  position:fixed;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+  overflow:hidden;
+  vertical-align:middle;
+  z-index:2;
+}
+.popup .img2 {
+  background-color:rgba(0,0,0,0.8);
+  border-radius:50%;
+  display:inline;
+  float:left;
+  height:90%;
+  margin:2.5% 5%;
+  overflow:hidden;
+  vertical-align:middle;
+  width:45%;
+}
+#circulos .popup .img2 img {
+  height:100%;
+  margin:0 -100%;
+  text-align:center;
+  vertical-align:middle;
+  width:100%;
+}
+#menu .texto p {
+  padding:0 4% 1em 4%;
+}
+.popup .texto {
+  background:#f2f2f2;
+  display:inline;
+  float:left;
+  height:65%;
+  margin:9% 5% 2.5% 0;
+  text-align:left;
+  vertical-align:middle;
+  width:36%;
+}
+.video.popup .texto {
+  background:none;
+  display:block;
+  float:none;
+  margin:12.5% auto 2.5% auto;
+  width:66%;
+}
+.popup .texto .scroll {
+  height:88%;
+  overflow-x:scroll;
+  padding:1% 4%;
+  width:92%;
+}
+#menu .texto{
+  width:80%;
+  margin-left:5%;
+}
+.popup .texto h3 {
+  color:#DDDDDD;
+  font-size:2em;
+  margin:-2.3em 0 2em 0;
+  text-shadow: 2px 2px 0px #000000;
+}
+.popup .texto a, #menu .popup .texto a {
+  background-color:rgba(25,25,25,0.666);
+  border-radius:30px;
+  color:#DDDDDD;
+  text-decoration:none;
+  height:60px;
+  line-height:2em;
+  padding:0.1%;
+  position:fixed;
+  text-align:center;
+  top:2%;
+  right:5%;
+  width:60px;
+}
+@media (max-width: 800px) {
+  body {font-size:10px;}
+  #circulos, #indica {width:100%;margin:1em 0;}
+  #circulos .tema, #circulos .logo {width:32%;}
+  #circulos .img {box-shadow:1px 1px 0 #000000;}
+}
+@media (orientation: portrait) {
+  #circulos, #indica {width:100%;margin:1em 0;}
+  #circulos .tema, #circulos .logo {width:32%;}
+  #circulos .img2 {display:block;  float:none; height:auto; margin:2.5% auto; width:60%;}
+  .popup .texto {display:inline-block;float:none; height:40%; margin:-1.5% auto; width:80%;}
+}
+@media (max-width: 640px) {
+  body {font-size:8px;}
+}
+	.errorField {
+	  background-color: #990000;
+	  color: white;
+	}
+.error {background:#ffffff; border:2px #9e4136 solid; color:red;}

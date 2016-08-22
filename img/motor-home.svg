@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="420"
+   height="420"
+   viewBox="0 0 420 420.00001"
+   id="svg3358"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="motor-home.svg">
+  <defs
+     id="defs3360" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.25"
+     inkscape:cx="-66.204476"
+     inkscape:cy="11.712322"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1366"
+     inkscape:window-height="743"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3363">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-632.36216)">
+    <g
+       id="g6176"
+       transform="matrix(0.875,0,0,0.875,0,672.36216)">
+      <g
+         style="fill:#e6e6e6"
+         id="g53">
+        <path
+           style="fill:#e6e6e6"
+           id="path55"
+           d="M 465.169,154.745 C 475.148,146.861 480,133.932 480,115.217 480,83.017 465.573,66.69 437.121,66.69 l -380.697,0 C 25.312,66.689 0,92.003 0,123.117 l 0,190.73 c 0,31.114 25.312,56.428 56.424,56.428 l 5.107,0 c 4.692,24.478 26.254,43.035 52.081,43.035 25.823,0 47.381,-18.557 52.072,-43.035 l 151.842,0 c 4.691,24.478 26.25,43.035 52.073,43.035 25.997,0 47.669,-18.805 52.167,-43.522 16.348,-1.584 28.131,-7.156 35.812,-16.935 9.155,-11.655 10.329,-26.968 10.329,-39.006 0,-7.231 -1.579,-21.106 -12.151,-32.778 -5.877,-6.487 -13.433,-11.135 -22.574,-13.93 l -20.34,-103.665 19.559,0 c 10.111,0.001 22.975,-0.992 32.768,-8.729 z M 113.611,393.311 c -18.218,0 -33.039,-14.819 -33.039,-33.035 0,-18.218 14.821,-33.039 33.039,-33.039 18.213,0 33.03,14.821 33.03,33.039 0.001,18.215 -14.817,33.035 -33.03,33.035 z m 162.366,-43.036 -78.159,0 0,-186.8 78.159,0 0,186.8 z m 93.621,43.036 c -18.213,0 -33.031,-14.819 -33.031,-33.035 0,-18.218 14.818,-33.039 33.031,-33.039 18.217,0 33.038,14.821 33.038,33.039 0,18.215 -14.821,33.035 -33.038,33.035 z m 78.307,-79.463 c 0,21.237 -4.36,33.281 -26.325,35.885 -4.903,-24.213 -26.346,-42.497 -51.983,-42.497 -25.823,0 -47.382,18.559 -52.073,43.039 l -21.548,0 0,-206.8 -118.159,0 0,206.801 -12.134,0 c -4.691,-24.48 -26.249,-43.039 -52.072,-43.039 -25.827,0 -47.389,18.559 -52.081,43.039 l -5.107,0 C 36.34,350.275 20,333.934 20,313.848 l 0,-190.73 C 20,103.032 36.34,86.69 56.424,86.69 l 380.697,0 c 19.233,0 22.879,10.026 22.879,28.527 0,12.026 -2.432,20.046 -7.229,23.835 -3.871,3.059 -10.154,4.423 -20.372,4.423 l -104.041,0 0,140.52 81.731,0 c 34.132,-10e-4 37.816,20.877 37.816,29.853 z m -35.716,-49.816 c -0.698,-0.014 -1.389,-0.038 -2.099,-0.038 l -61.731,0 0,-100.52 44.1,0 19.73,100.558 z"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#e6e6e6"
+           id="path57"
+           d="m 46.934,231.453 103.516,0 0,-87.979 -103.516,0 0,87.979 z m 20,-67.978 63.517,0 0,47.979 -63.517,0 0,-47.979 z"
+           inkscape:connector-curvature="0" />
+      </g>
+      <g
+         style="fill:#e6e6e6"
+         id="g59" />
+      <g
+         style="fill:#e6e6e6"
+         id="g61" />
+      <g
+         style="fill:#e6e6e6"
+         id="g63" />
+      <g
+         style="fill:#e6e6e6"
+         id="g65" />
+      <g
+         style="fill:#e6e6e6"
+         id="g67" />
+      <g
+         style="fill:#e6e6e6"
+         id="g69" />
+      <g
+         style="fill:#e6e6e6"
+         id="g71" />
+      <g
+         style="fill:#e6e6e6"
+         id="g73" />
+      <g
+         style="fill:#e6e6e6"
+         id="g75" />
+      <g
+         style="fill:#e6e6e6"
+         id="g77" />
+      <g
+         style="fill:#e6e6e6"
+         id="g79" />
+      <g
+         style="fill:#e6e6e6"
+         id="g81" />
+      <g
+         style="fill:#e6e6e6"
+         id="g83" />
+      <g
+         style="fill:#e6e6e6"
+         id="g85" />
+      <g
+         style="fill:#e6e6e6"
+         id="g87" />
+    </g>
+  </g>
+</svg>

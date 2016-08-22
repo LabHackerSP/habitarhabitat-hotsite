@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--conteudo do head-->
+  <meta charset="UTF-8">
+  <link href="estilos2.css" type="text/css" media="all" rel="stylesheet" />
+  <script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript">
+    $.ajax({
+      context: this,
+      success: function(json) {}
+    });
+
+    $(document).ready(function(){
+      $(".popup").hide();
+      $(".img").click(function(){
+        $(this).siblings(".popup").fadeIn().show();
+      });
+      $(".popup a").click(function(){
+        $(".popup").fadeOut();
+      });
+      $("#menu a").click(function(){
+        $(this).siblings(".popup").fadeIn().show();
+      });
+
+    });
+  </script>
+</head>
+<body>
+  <!--conteudo do body-->
+  <div id=tudo>
+    <div id=menu>
+      <ul>
+        <li>
+          <a href="#projeto">O projeto</a>
+          <div class=popup>
+            <div class=texto>
+              <h3>O Projeto <a href=#>X</a></h3>
+              <div class=scroll>
+                <p>Na segunda temporada da série Habitar/Habitat, os diretores Paulo Markun e Sergio Roizemblit irão produzir 13 episódios que mergulham na experiência de pessoas que tiveram seu modo de vida adequado à suas moradias.</p>
+                <p>Enquanto a primeira temporada priorizou um abordagem antropológica conectando aspectos arquitetônicos às formas de organização familiar, nesta segunda fase, o foco dos diretores é a relação entre o indivíduo e seu modo de vida em espaços coletivos não convencionais e diferentes maneiras de viver nas bordas da sociedade, ou até à margem dela.</p>
+                <p>Para entender até onde as limitações e peculiaridades de tais espaços interferem no comportamento e no modo de pensar de seus habitantes, eles começam a percorrer o território brasileiro, em busca de histórias escondidas entre formas solitárias ou comunitárias de se viver.</p>
+                <p>Para formar um painel amplo sobre habitações não convencionais, foram escolhidos os temas: Farol, Plataforma de Petróleo, Sem Terra, Lar de Idosos, Canteiro de Obras, Quilombolas, Ciganos, Vilas Militares, Refugiados, Sem Teto, Motor Home, Internato e Cortiços.</p>
+                <p>Os episódios irão além de apenas descrever essas formas de habitação e seus moradores. Procuram entender como são esses espaços e suas regras, impostas ou acordadas a partir da natureza física do espaço ou da rotina de trabalho, como é a convivência entre os moradores e outras questões.</p>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <a href="#mais">Saiba mais</a>
+          <div class=popup>
+            <div class=texto>
+              <h3>Saiba Mais <a href=#>X</a></h3>
+              <div class=scroll>
+                <p>A série Habitar/Habitat surgiu com a ideia de mergulhar no tema da habitação.</p>
+                <p>Em sua primeira temporada, foram reveladas formas de morar no Brasil, a partir de uma abordagem antropológica, onde os aspectos arquitetônicos se relacionavam com as formas de organização familiar.</p>
+                <p>Ao longo de 13 episódios, urbanistas, arquitetos, historiadores, antropólogos, artistas plásticos mesclaram suas interpretações com depoimentos e lembranças dos personagens, numa demonstração do quanto as habitações podem ir além de um simples espaço para proteger seus moradores: elas também são narrativas.</p>
+                <p>Em 2014, Habitar/Habitat ganhou o prêmio da Televisão da América Latina na categoria "Melhor Produção de Série". Dois anos depois da primeira temporada, o projeto começa a dar os primeiros passos para uma nova forma de abordar seu tema principal.</p>
+                <p>Este endereço eletrônico vai além de ser apenas um Hot Site para apresentar um retrato amplo do projeto. Ele pretende também colher sugestões de histórias, locais e personagens para os diversos episódios.</p>
+                <p>Aqui, você terá uma prévia sobre cada um dos assuntos trabalhados nos 13 episódios e poderá utilizar o mapa interativo, que ajudará a localizar e entender melhor a distribuição de todas as formas de habitação, abordadas na temporada, espalhadas pelo território nacional.Esse hot site é uma via de duas mãos para os que estão interessados em aprender mais sobre as formas de habitação não convencionais que existem no país. Você tanto pode ensinar quanto aprender.</p>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <a href="#contato">Contato</a>
+          <div class=popup>
+            <div class=texto>
+              <h3>Contato <a href=#>X</a></h3>
+              <div class=scroll>
+                <form action=form.php method=post id=contato>
+                  <input type=text alt="seu nome" placeholder='seu nome' name=from_name data-validation=required />
+                  <input type=mail alt="seu e-mai" placeholder='seu e-mail' name=from data-validation=email />
+                  <input type=text alt="assunto" placeholder='assunto' name=subject data-validation=required />
+                  <textarea class=caixa placeholder="sua mensagem" name=body rows=4 data-validation=required ></textarea>
+                  <p><input data-validation="recaptcha" data-validation-recaptcha-sitekey="[RECAPTCHA_SITEKEY]"></p>
+                  <input class=botao type=submit title="enviar" value=enviar />
+                  <input type=hidden value='H|H _ Contato' name=hidden />
+                </form>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+      <div id=circulos>
+	<div class=logo>
+          <div class=img><img src=img/logo.svg /></div>
+          <div class="video popup">
+            <div class=texto>
+              <h3><a href=#>X</a></h3>
+              <video width="100%" height="" controls>
+                <source src="img/HH_ano2.mp4">
+                <source src="img/HH_ano2.webm" type="video/webm">
+                <source src="img/HH_ano2.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+              </video> 
+            </div>
+          </div>
+        </div>
+
+        <div class="tema farol">
+          <div class=img><img src=img/farol.svg /></div>
+          <div class=titulo>farol</div>
+          <div id=farol class=popup>
+	    <div class=img2><img src=img/farol2.png /></div>
+	    <div class=texto>
+              <h3>Farol <a href="#">X</a></h3>
+              <div class=scroll>
+                <p>Desde a Antiguidade a humanidade usa construções na costa ou em ilhas próximas do litoral para orientar sua navegação oceânica – o mitológico farol de Alexandria, construído quase três séculos antes do nascimento de Jesus Cristo e listado como uma das sete maravilhas do mundo antigo (até ser destruído por um terremoto em 1323) é apenas o mais conhecido. De lá para cá, a tecnologia facilitou o  localização de embarcações em meio à pior das tempestades, mas não aposentou os faróis. Caracterizados por estruturas elevadas, usualmente em formato de torre, e uma iluminação potente, eles lançam sua luz a uma distância de até 20 milhas náuticas – ou 36 quilômetros, aproximadamente.</p>
+                <p>Quem trabalha com faróis são os faroleiros, denominação que tanto define o responsável pela análise de projetos de implantação, alteração e cancelamento de sinais náuticos como os que cuidam do  abastecimento dos equipamentos mais isolados e da manutenção das boias, muitas vezes realizados em condições desfavoráveis. Uma profissão muitas vezes solitária e que necessita extrema atenção.</p>
+                <p>A Marinha Brasileira cuida de aproximadamente 4.660 faróis. Trinta deles são guarnecidos por marinheiros e diretamente subordinados pelo CAMR - Centro de Sinalização Náutica Almirante Moraes Rego. Na segunda temporada da série Habitar/Habitat, vamos mostrar a rotina e a história dessas pessoas que se dedicam ao mar e passam longos períodos longe de suas famílias e da terra firme.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tema cigano">
+          <div class=img><img src=img/cigano.svg /></div>
+          <div class=titulo>acampamento cigano</div>
+          <div id=cigano class=popup>
+            <div class=img2><img src=img/cigano2.png /></div>
+            <div class=texto>
+              <h3>Acampamento Cigano <a href="#">X</a></h3>
+              <div class=scroll>
+                <p>Originários de povos que viviam no noroeste do subcontinente indiano e subdivididos em diversos grupos étnicos, os ciganos chegaram ao Brasil ainda no período colonial. Atualmente, a estimativa é de que existam pelo menos meio milhão de ciganos em solo brasileiro. Em 2011, foram identificados 291 acampamentos em 21 estados.</p>
+                <p>Os ciganos brasileiros – se é que o termo se aplica - pertencem a três grupos: os Rom (que falam romani), os Sinti (que falam sinto) e os Calon (que falam caló).</p>
+                <p>Nômades, em sua minoria e com poucos recursos, costumam viver em . tendas de lona sem energia, ou água potável. Seus acampamentos são instalados em terrenos baldios e muitos acabam sendo expulsos por agentes de segurança pública.</p>
+                <p>No Governo Federal, a causa cigana é representada pela Secretaria de Políticas de Promoção da Igualdade Racial e em 2013 foi elaborado um "Guia de Políticas Públicas para o Povos Ciganos".</p>
+                <p>Na segunda temporada da série Habitar/Habitat, vamos entender mais a fundo como funcionam esses acampamentos, como são os diferentes costumes e culturas desse povo.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tema sem-terra">
+          <div class=img><img src=img/sem-terra.svg /></div>
+          <div class=titulo>acampamento sem terra</div>
+          <div id=sem-terra class=popup>
+            <div class=img2><img src=img/sem-terra2.png /></div>
+            <div class=texto>
+              <h3>Acampamento Sem Terra <a href="#">X</a></h3>
+              <div class=scroll>
+                <p>A luta pela terra é antiga no Brasil, mas ganhou novo impulso com o Movimento Sem Terra – fundado em 1984 e que só alcançou relevância e visibilidade a partir de 1993. Ao lado de outras organizações que lutam pela reforma agrária, o MST fez de acampamentos e assentamentos uma forma de moradia diferenciada, que inclui desde treinamento e mobilização a  projetos de educação e desenvolvimento sustentável. São experimentos que têm recebido um tratamento apurado de geógrafos, pedagogos, economistas, ecólogos e cientistas sociais.</p>
+                <p>Os sem terra utilizam duas formas de ocupação em sua luta pela reforma agrária: acampamentos e assentamentos. A segunda é fruto da primeira ocupação e se caracteriza por um conjunto de unidades agrícolas independentes, instaladas pelo INCRA, onde existia um único proprietário.</p>
+                <p>Quando chegam  a essa etapa, os beneficiários recebem créditos para a aquisição de ferramentas e insumo para o plantio de alimentos. A partir dai, a terra é legalizada e em momento algum essas pessoas são retiradas, desde que não parem a produção. Na segunda temporada da série Habitar/Habitat, vamos mostrar como moram e a rotina dos  assentados.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tema sem-teto">
+          <div class=img><img src=img/sem-teto.svg /></div>
+          <div class=titulo>ocupação sem teto</div>
+          <div id=sem-teto class=popup>
+            <div class=img2><img src=img/sem-teto2.png /></div>
+            <div class=texto>
+              <h3>Ocupação Sem Teto <a href="#">X</a></h3>
+              <div class=scroll>
+                <p>Entre 1950 e 2000, o número de domicílios identificados em todo o país. Um crescimento espantoso que decorre da migração do campo para a cidade e que simplesmente explodiu os grandes centros urbanos. No rastro desse processo veio o aumento das desigualdades e a multiplicação dos sem teto, que nos últimos anos, conquistaram maior protagonismo social, a partir de movimentos de ocupação e resistência às tentativas de reintegração de posse ou despejo.</p>
+                <p>Só a cidade de São Paulo possui um déficit de 230 mil moradias e mais de 290 mil imóveis desocupados. Números que sustentam o discurso e a ação direta de quem busca conquistar a casa própria ocupando edificações sem uso ou envolvidas em disputas judiciais.</p>
+                <p>Mais que uma estratégia de pressão por melhores opções de moradia e de políticas habitacionais para a população de baixa renda, essas ocupações se constituem em campo de luta política e ideológica e não respondem a um único comando – várias entidades disputam a hegemonia dentro do movimento.</p>
+                <p>Na segunda temporada da série Habitar/Habitat, vamos descobrir as limitações e peculiaridades desses espaços e como elas interferem no comportamento e no modo de pensar de seus usuários, além das regras e rotina dessas famílias.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tema veleiros">
+          <div class=img><img src=img/veleiros.svg /></div>
+          <div class=titulo>veleiros</div>
+          <div id=veleiros class=popup>
+            <div class=img2><img src=img/veleiros2.png /></div>
+            <div class=texto>
+              <h3>Veleiros <a href="#">X</a></h3>
+               <div class=scroll>
+                 <p>Morar ancorado não é usual por aqui. Enquanto no exterior existem opções de viver em casas-flutuantes e barcos de diversas formas e tamanho, no Brasil esta opção de vida é muito restrita. Nos rios da Amazônia, onde as cheias têm uma grande variação, esse tipo de moradia já foi comum. Manaus chegou a ter uma verdadeira cidade flutuante a seu lado. Mas hoje sua presença é cada vez mais rara.</p>
+                <p>No litoral, são poucas as opções de marinas, quase todas localizadas entre o Sul e o Sudeste. Marinas Públicas são apenas quatro. Os adeptos da vida no mar, geralmente possuem um veleiro, embarcações indicadas para habitação por possuírem cabines com quartos, cozinha, banheiro.</p>
+                <p>Um veleiro pequeno, de 19 pés, pode custar tanto quanto um carro. Morar a bordo de um veleiro é uma escolha que deixa para trás luxos, confortos e facilidades dos grandes centros urbanos. Sem muito espaço para coisas, as compras e gastos com supérfluos são mínimos. O planejamento e consciência do consumo tornam-se fundamentais, desde água e energia, o abastecimento de gêneros alimentícios e bens de um modo geral, devem levar em conta o espaço de armazenamento, o número de dias sem abastecimento e o número de pessoas a bordo. A consciência em relação ao meio ambiente torna-se mais presente.</p>
+                <p>Na segunda temporada da série Habitar/Habitat vamos atrás dos brasileiros que escolheram essa forma de viver incomum e cercada de mitos e sedução.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tema plataforma">
+          <div class=img><img src=img/circo_caminhoneiro.svg /></div>
+          <div class=titulo>circos e caminhoneiros</div>
+          <div id=plataforma class=popup>
+            <div class=img2><img src=img/circo_caminhoneiro2.png /></div>
+            <div class=texto>
+              <h3>Circos e Caminhoneiros <a href="#">X</a></h3>
+              <div class=scroll>
+                <h4>Circos</h4>
+                <p>O circo é uma companhia itinerante de artistas das mais diferentes especialidades (malabarismo, palhaço, acrobacia, ilusionismo...). A apresentação acontece em uma arena circular, o picadeiro, cercado por assentos em seu entorno, sob uma grande tenda ou lona.</p>
+                <p>A vida nômade de uma família circense á marcada por turnês de dois a três meses por cidade. Essas constantes mudanças proporcionam uma experiência de vida única. Muitos dos que nascem em família circense entram na vida artística ainda na infância, sem ao menos ter uma experiência de uma moradia numa casa convencional. Entre os desafios enfrentados pelo circo no Brasil, os artistas relatam a falta de apoio político, concorrência com circos internacionais, falta de terrenos centrais e bem localizados para que possam se instalar e o crescente aumento de outras formas de entretenimento que gradativamente têm afastado o público do picadeiro.</p>
+                <h4>Caminhoneiros</h4>
+                <p>A profissão de caminhoneiro no Brasil, apesar de sua importância para a economia nacional, ainda é pouco valorizada. A situação se torna ainda pior para o profissional autônomo, que não recebe os benefícios de uma empresa de transportes e precisa trabalhar por conta própria. Fazem parte deste universo a solidão, prostituição e religiosidade. É comum encontrarmos problemas de saúde devido à má alimentação e o uso de rebites para se manter acordados. O rádio amador é o instrumento de comunicação neste mundo sobre rodas.</p>
+                <p>As longas viagens em rodovias malconservadas, aliadas à ausência da família, à falta de estrutura dos postos de gasolina e à solidão constante, fazem do motorista de caminhão um profissional único, que atravessa as mais diversas adversidades para atingir seu objetivo final, que é entregar a carga no destino com segurança.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tema asilo">
+          <div class=img><img src=img/asilo.svg /></div>
+          <div class=titulo>asilo de idosos</div>
+          <div id=asilo class=popup>
+            <div class=img2><img src=img/asilo2.png /></div>
+            <div class=texto>
+              <h3>Asilo de Idosos <a href="#">X</a></h3>
+              <div class=scroll>
+                <p>No universo que orbita em torno da velhice, os asilos ganharam uma denominação mais abrangente e aparentemente isenta – tornaram-se "Instituições de Longa Permanência para Idosos" – ILPI. Na definição da Anvisa, ILPIs são instituições governamentais ou não-governamentais, de caráter residencial, destinadas a domicílio coletivo de pessoas com idade igual ou superior a 60 anos, com ou sem suporte familiar, em condição de liberdade, dignidade e cidadania.</p>
+                <p>Por trás desse conceito genérico estão entidades filantrópicas (65,2% do total) e uma carga resiliente de preconceito, talvez pelo fato de atenderem principalmente aos idosos de menor renda, que não tem condições familiares de permanecer na companhia da parentes.</p>
+                <p>Os mais de 20 milhões de idosos espalhados por todo o país, dentro os quais quase 1% assistidos por ILPIs, serão outro tema da segunda temporada da série Habitar/Habitat.</p>
+                <p>Nesse território, destaca-se o Retiro dos Artistas, implantado logo após a Primeira Guerra Mundial, no Rio de Janeiro e que por 94 anos foi a única instituição social a receber esses profissionais que costumam manter distância da previdência privada ou mesmo da aposentadoria regular.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tema motor-home">
+          <div class=img><img src=img/motor-home.svg /></div>
+          <div class=titulo>motor-home</div>
+          <div class=popup>
+            <div class=img2><img src=img/motor-home2.png /></div>
+            <div class=texto>
+              <h3>Motor-home <a href="#fechar">X</a></h3>
+              <div class=scroll>
+                <p>Embora esse tipo de veículo tenha surgido por volta de 1910, só foram se tornar uma opção de moradia na Europa e no Estados Unidos depois da Segunda Guerra Mundial.</p>
+                <p>Os motorhomes podem ser montados em chassis de ônibus, caminhão, van ou em um chassi-cabine. Há várias formas de personalização, indo desde a planta interna até os acabamentos, sendo mais fácil de adequar a casa ao gosto e aos recursos de cada um. Engana-se quem acredita que é um espaço apertado, apesar de serem montadas em um veículo – muitos são casas completas, com sala, quarto, cozinha e banheiro.</p>
+                <p>De acordo com a Associação Brasileira de Campismo (ABRACAMPING), existem no Brasil cerca de 1.800 donos de motor-homes e 2.000 trailers. Qual é o perfil de quem opta por esse tipo de moradia? Por quanto tempo esses moradores ficam na estrada? Quais as questões de segurança? Quantas pessoas chegam a morar em um veículo assim? Essas e outras perguntas serão respondidas na segunda temporada da série Habitar/Habitat.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tema quilombola">
+          <div class=img><img src=img/quilombola.svg /></div>
+          <div class=titulo>quilombola</div>
+          <div class=popup>
+            <div class=img2><img src=img/quilombola2.png /></div>
+            <div class=texto>
+              <h3>Quilombola <a href="#fechar">X</a></h3>
+              <div class=scroll>
+                <p>Na definição da Associação Brasileira de Antropologia, toda comunidade negra rural que agrupe descendentes de escravos, vivendo de cultura de subsistência e onde as manifestações culturais têm forte vínculo com o passado é um quilombo.</p>
+                <p>Esses antigos refúgio de escravos africanos e afrodescendentes situam-se normalmente em áreas distantes e de difícil acesso e justamente por isso, tiveram papel essencial na manutenção da cultura de origem africana no Brasil.</p>
+                <p>Muitas comunidades continuam a basear sua economia em roças de subsistência - milho, batata, mandioca, feijão e banana. Algumas buscam na pesca e na criação de animais outra forma de subsistência. Também contribui para a renda dos quilombolas as festas que apresentam o sincretismo entre a religião católica e as crenças de matrizes africanas e que atraem turistas em busca de autenticidade.</p>
+                <p>Atualmente, há no Brasil mais de 2.600 comunidades certificadas pela Fundação Cultural Palmares e/ou pelo INCRA. Com o certificado, as comunidades garantem seus direitos e tem acesso aos programas sociais do Governo Federal.</p>
+                <p>A segunda temporada do Habitar/Habitat vai atrás de como é a vida nessas comunidades, como é conquistado a titulação de "terra quilombola" e muito mais.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tema cortico">
+          <div class=img><img src=img/cortico.svg /></div>
+          <div class=titulo>cortiço</div>
+          <div class=popup>
+            <div class=img2><img src=img/cortico2.png /></div>
+            <div class=texto>
+              <h3>Cortiço <a href="#fechar">X</a></h3>
+              <div class=scroll>
+                <p>Na terminologia oficial, um cortiço é uma Habitação Coletiva Precária de Aluguel - HCPA. Ocupadas por famílias de baixa renda, essas moradias costumam compartilhar as instalações sanitárias e até mesmo o tempo que um morador utiliza a cama. Normalmente, estão localizadas nas áreas centrais das grandes cidades, por causa das oportunidades de trabalho e da proximidade de bens e serviços como creches, postos de saúde, escolas, etc.</p>
+                <p>No século XIX, o romancista Aluísio Azevedo publicou o romance "O Cortiço", denunciando a exploração e péssimas condições dos moradores desse tipo de habitaçao.</p>
+                <p>O último censo do IBGE, de 2010, registra 296.754 casas de cômodos, cortiços ou cabeças de porco. Desse total, 86.587 estão localizados no estado de São Paulo.</p>
+                <p>Em 1991, a chamada Lei Moura, estabeleceu na cidade de São Paulo condições mínimas de iluminação, ventilação, segurança de estrutura para qualquer moradia. Mas a realidade segue longe da lei.</p>
+                <p>Na segunda temporada da série Habitar/Habitat vamos entrar nesses espaços e tentar entender quais os pontos em comum entre os mais diversos cortiços e o que sobrevive do cenário descrito por Aluísio Azevedo:</p>
+                <blockquote>As portas das latrinas não descansavam, era um abrir e fechar de cada instante, um entrar e sair sem tréguas. Não se demoravam lá dentro e vinham ainda amarrando as calças ou as saias; as crianças não se davam ao trabalho de lá ir, despachavam-se ali mesmo, no capinzal dos fundos, por detrás da estalagem ou no recanto das hortas.</blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tema quartel">
+          <div class=img><img src=img/quartel.svg /></div>
+          <div class=titulo>quartel</div>
+          <div class=popup>
+            <div class=img2><img src=img/quartel2.png /></div>
+            <span class=texto>
+              <h3>Quartel <a href="#fechar">X</a></h3>
+              <div class=scroll>
+                <p>Na definição da Associação Brasileira de Antropologia, toda comunidade negra rural que agrupe descendentes de escravos, vivendo de cultura de subsistência e onde as manifestações culturais têm forte vínculo com o passado é um quilombo.</p>
+                <p>Esses antigos refúgio de escravos africanos e afrodescendentes situam-se normalmente em áreas distantes e de difícil acesso e justamente por isso, tiveram papel essencial na manutenção da cultura de origem africana no Brasil.</p>
+                <p>Muitas comunidades continuam a basear sua economia em roças de subsistência - milho, batata, mandioca, feijão e banana. Algumas buscam na pesca e na criação de animais outra forma de subsistência. Também contribui para a renda dos quilombolas as festas que apresentam o sincretismo entre a religião católica e as crenças de matrizes africanas e que atraem turistas em busca de autenticidade.</p>
+                <p>Atualmente, há no Brasil mais de 2.600 comunidades certificadas pela Fundação Cultural Palmares e/ou pelo INCRA. Com o certificado, as comunidades garantem seus direitos e tem acesso aos programas sociais do Governo Federal.</p>
+                <p>A segunda temporada do Habitar/Habitat vai atrás de como é a vida nessas comunidades, como é conquistado a titulação de "terra quilombola" e muito mais.</p>
+              </div>
+            </span>
+          </div>
+        </div>
+
+        <div class="tema internato">
+          <div class=img><img src=img/internato.svg /></div>
+          <div class=titulo>internato</div>
+          <div class=popup>
+            <div class=img2><img src=img/internato2.png /></div>
+            <span class=texto>
+              <h3>Internato <a href="#fechar">X</a></h3>
+              <div class=scroll>
+                <p>Os primeiros internatos tinham como clientela as crianças desobedientes inglesas do século XIV. Conhecidos por serem instituições rígidas e que mantinham os alunos após o período de aula, essas organizações asseguravam ensino e moradia por longos períodos – e eram frequentes os problemas como castigos corporais e regras inflexíveis.</p>
+                <p>Atualmente, a noção de internato mudou, apesar de manter a disciplina e o ensino de qualidade como característica, são ambientes um pouco mais maleáveis.</p>
+                <p>Os internatos contemporâneos admitem meninos e meninas, mas proibem qualquer contato físico. Existem 80 internatos espalhados pelo Brasil e a procura por vagas nessas instituições tem crescido nos últimos anos – alguns tem até listas de espera.</p>
+                <p>Como é a rotina de um internato? Ainda há instituições que separem as salas por sexo? Que tipo de família opta por esse tipo de ensino? Como é o convívio desses alunos? Essas e outras questões serão abordadas pela série Habitar/Habitat.</p>
+              </div>
+            </span>
+          </div>
+        </div>
+
+        <div class="tema refugiados">
+          <div class=img><img src=img/refugiados.svg /></div>
+          <div class=titulo>refugiados</div>
+          <div class=popup>
+            <div class=img2><img src=img/refugiados2.png /></div>
+            <span class=texto>
+              <h3>Refugiados <a href="#fechar">X</a></h3>
+              <div class=scroll>
+                <p>Dados reunidos pela Polícia Federal indicavam a presença de 1,8 milhão de imigrantes no Brasil, sendo 8.860 refugiados oficialmente reconhecidos pelo governo em março de 2015. O conceito de refugiado existe desde 1921 e identifica quem vive fora de seu país de origem por temor de perseguição, seja por motivos religiosos, raciais, de nacionalidade, entre outros. Também são considerados refugiados os obrigados a deixar seu país em razão de conflitos armados.</p>
+                <p>Com o recente aumento do número de refugiados pelo mundo, o Brasil passou a atrair levas crescentes. Entre 2010 e 2015, o número de solicitações de refugio cresceu 2.868%, passando de 966 para 28.670 pedidos.</p>
+                <p>O visto humanitário e o Estatuto do Refugiado, garantem a esses recém-chegados o direito a conseguir documentos, trabalhar, estudar e exercer os mesmos direitos civis que qualquer cidadão estrangeiro em situação regular no Brasil.</p>
+                <p>A proteção e a integração dos refugiados cabe ao governo brasileiro, mas não há uma política pública que contemple a moradia para eles, obrigando muitos deles a ocuparem abrigos ou prédios abandonados. Na segunda temporada da série  Habitar/Habitat vamos mostrar como vivem alguns grupos que chegaram ao Brasil.</p>
+              </div>
+            </span>
+          </div>
+        </div>
+
+        <div class="tema logo indica">
+          <div class=img><img src=img/indica.svg /></div>
+          <div class=titulo>indicações</div>
+          <div class=popup>
+            <div class=img2><img src=img/indica2.png /></div>
+            <span class=texto>
+              <h3>Indicações <a href="#fechar">X</a></h3>
+              <div class=scroll>
+                <p>Se você conhece algum local, personagem ou história envolvendo asilos/faróis/quartéis/plataformas de petróleo/ etc (colocar a palavra apropriada em cada texto) indique abaixo as informações mais importantes. A história, o personagem ou o local poderão integrar a segunda temporada da série Habitar/Habitat.</p>
+                <p>Com a sua colaboração, vamos mostrar melhor essas incomuns formas de conviver.</p>
+                <form id=indicado action=form.php method=post>
+                  <input type=text alt="seu nome" placeholder='seu nome' name=from_name data-validation=required />
+                  <input type=mail alt="seu e-mai" placeholder='seu e-mail' name=from data-validation=email />
+                  <input type=text alt="sua indicação" placeholder='sua indicação' name=subject data-validation=required />
+                  <textarea class=caixa placeholder="uma breve descrição" name=body rows=4 data-validation=required></textarea>
+                  <p><input data-validation="recaptcha" data-validation-recaptcha-sitekey="[RECAPTCHA_SITEKEY]"></p>
+                  <input class=botao type=submit title="enviar" value=enviar />
+                  <input type=hidden value='H|H _ Indica&ccedil;&atilde;o' name=hidden />
+                </form>
+              </div>
+            </span>
+          </div>
+        </div>
+      </div>
+
+
+  </div>
+
+<script src="jquery.form-validator.min.js"></script>
+<script>
+  $.validate({
+    lang: 'pt',
+    form: '#indicado, #contato',
+    borderColorOnError : '#9e4136',
+    addValidClassOnAll : true,
+    modules : 'security',
+    reCaptchaSiteKey: '6LegOygTAAAAAN1xm0d3trIyoZy9HLtsMlF6sZYM',
+    reCaptchaTheme: 'light'
+  });
+</script>
+
+
+</body>
+</html>
+
+
+
