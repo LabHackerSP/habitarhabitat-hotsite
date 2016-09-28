@@ -48,8 +48,13 @@ a {
 }
 #circulos  img {
   border:none;
-  margin:20%;
+  margin:auto;
   height:auto;
+  vertical-align:middle;
+  width:100%;
+}
+#circulos  .logo img {
+  margin:20%;
   width:60%;
 }
 #circulos .tema img #icone {
