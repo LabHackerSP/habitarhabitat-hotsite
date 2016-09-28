@@ -26,6 +26,14 @@
          id="path324"
          inkscape:connector-curvature="0" />
     </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath322-2">
+      <path
+         d="m 0,1080 1920,0 L 1920,0 0,0 0,1080 Z"
+         id="path324-2"
+         inkscape:connector-curvature="0" />
+    </clipPath>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -35,7 +43,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.25"
-     inkscape:cx="-742.20448"
+     inkscape:cx="-778.20448"
      inkscape:cy="11.712322"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -64,27 +72,27 @@
      id="layer1"
      transform="translate(0,-632.36216)">
     <g
-       transform="matrix(3.185293,0,0,-3.185293,-3913.7214,1703.5609)"
-       id="g318">
+       transform="matrix(1.9445435,0,0,-1.9445435,-2307.4311,1368.1029)"
+       id="g318-9">
       <g
-         id="g320"
-         clip-path="url(#clipPath322)">
+         id="g320-7"
+         clip-path="url(#clipPath322-2)">
         <g
-           id="g326"
+           id="g326-5"
            transform="translate(1245.5303,207.2812)">
           <path
              d="m 0,0 0,127 c 0,0 0.693,2.014 2.412,2.014 1.719,0 2.578,-0.861 2.578,-1.892 l 0,-1.031 c 0,0 -0.344,-125.494 -0.344,-126.526 0,-1.031 -0.858,-2.407 -2.406,-2.407 C 0.177,-2.842 0,0 0,0"
              style="fill:#e6e6e6;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="path328"
+             id="path328-6"
              inkscape:connector-curvature="0" />
         </g>
         <g
-           id="g330"
+           id="g330-4"
            transform="translate(1254.6465,258.3877)">
           <path
              d="m 0,0 0,69.312 c 0,0 16.159,-5.331 30.428,-2.751 14.268,2.579 27.335,8.595 35.414,8.595 8.079,0 14.955,-0.86 23.207,-4.641 l 0,-68.592 c 0,0 -3.953,-0.517 -12.205,2.062 C 68.592,6.564 59.652,7.971 49.854,3.126 43.581,0.024 35.256,-3.781 27.334,-3.781 17.363,-3.781 8.939,-2.235 0,0"
              style="fill:#e6e6e6;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="path332"
+             id="path332-6"
              inkscape:connector-curvature="0" />
         </g>
       </g>

@@ -26,6 +26,14 @@
          id="path180"
          inkscape:connector-curvature="0" />
     </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath178-0">
+      <path
+         d="m 0,1080 1920,0 L 1920,0 0,0 0,1080 Z"
+         id="path180-3"
+         inkscape:connector-curvature="0" />
+    </clipPath>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -35,7 +43,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="54.5"
+     inkscape:cx="125.5"
      inkscape:cy="234.02083"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -64,144 +72,144 @@
      id="layer1"
      transform="translate(0,-632.36216)">
     <g
-       transform="matrix(2.763107,0,0,-2.763107,-428.19441,2417.2936)"
-       id="g174">
+       transform="matrix(1.9445435,0,0,-1.9445435,-243.32578,1936.9627)"
+       id="g174-2">
       <g
-         id="g176"
-         clip-path="url(#clipPath178)">
+         id="g176-1"
+         clip-path="url(#clipPath178-0)">
         <g
-           id="g182"
+           id="g182-7"
            transform="translate(224.6655,627.9243)">
           <path
              d="m 0,0 c -7.724,-19.777 -18.961,-49.952 -25.266,-67.166 -7.101,-19.393 -18.158,-55.465 -20.728,-63.904 18.928,1.855 31.42,1.907 41.521,1.95 5.751,0.025 10.719,0.044 15.847,0.372 0.919,0.059 2.458,0.157 2.705,0.422 -0.002,0 0.077,0.203 -0.083,0.843 -0.075,0.303 -0.213,0.756 -0.41,1.404 -1.441,4.769 -5.828,19.281 -12.139,58.519 C -3.264,-38.27 -1.666,-13.566 0,0 m -49.481,-133.94 0.544,1.799 c 0.131,0.435 13.257,43.821 21.319,65.837 7.575,20.684 23.026,61.957 30.211,79.596 L 4.35,13.208 c -0.074,-0.333 -7.507,-36.365 -0.429,-80.371 6.285,-39.071 10.634,-53.462 12.064,-58.189 0.212,-0.704 0.36,-1.196 0.442,-1.524 0.311,-1.246 0.204,-2.204 -0.327,-2.931 -0.882,-1.206 -2.508,-1.31 -4.567,-1.442 -5.202,-0.333 -10.204,-0.352 -15.995,-0.376 -10.375,-0.044 -23.289,-0.098 -43.149,-2.124 l -1.87,-0.191 z"
              style="fill:#e6e6e6;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="path184"
+             id="path184-5"
              inkscape:connector-curvature="0" />
         </g>
         <g
-           id="g186"
+           id="g186-6"
            transform="translate(286.4062,501.3418)">
           <path
              d="m 0,0 c -1.872,5.326 -2.903,9.26 -4.095,13.805 -2.348,8.95 -5.269,20.09 -16.211,48.374 -16.417,42.437 -30.807,75.827 -30.951,76.162 l -0.808,1.45 -3.805,0.103 -3.191,-82.573 c 0.706,-4.338 1.386,-8.366 2.041,-12.1 l 3.546,91.799 0.12,-0.018 c 2.079,-4.865 15.56,-36.563 30.711,-75.728 C -11.752,33.122 -8.851,22.06 -6.519,13.17 -5.396,8.887 -4.414,5.141 -2.744,0.267 -3.651,0.201 -5.298,0.137 -8.282,0.137 c -8.934,0 -24.769,0.56 -39.124,1.188 0.278,-0.924 0.468,-1.54 0.564,-1.922 0.058,-0.231 0.078,-0.424 0.099,-0.615 14.178,-0.616 29.652,-1.156 38.461,-1.156 7.73,0 7.907,0.354 8.297,1.133 L 0.349,-0.465 0,0 Z"
              style="fill:#e6e6e6;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="path188"
+             id="path188-5"
              inkscape:connector-curvature="0" />
         </g>
         <g
-           id="g190"
+           id="g190-4"
            transform="translate(234.2539,641.7461)">
           <path
              d="m 0,0 -6.938,0 c -0.249,1.421 0.125,2.595 1.251,3.461 1.208,0.926 2.539,1.029 3.872,0.301 C -0.371,2.971 0.101,1.661 0,0"
              style="fill:#e6e6e6;fill-opacity:1;fill-rule:evenodd;stroke:none"
-             id="path192"
+             id="path192-2"
              inkscape:connector-curvature="0" />
         </g>
         <g
-           id="g194"
+           id="g194-2"
            transform="translate(197.5972,557.7441)">
           <path
              d="M 0,0 C 0,0 8.142,5.011 29.021,4.385"
              style="fill:none;stroke:#e6e6e6;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-             id="path196"
+             id="path196-1"
              inkscape:connector-curvature="0" />
         </g>
         <g
-           id="g198"
+           id="g198-7"
            transform="translate(242.9043,618.2925)">
           <path
              d="M 0,0 -12.109,-2.714"
              style="fill:none;stroke:#e6e6e6;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-             id="path200"
+             id="path200-2"
              inkscape:connector-curvature="0" />
         </g>
         <g
-           id="g202"
+           id="g202-4"
            transform="translate(230.5859,589.2705)">
           <path
              d="M 0,0 C 1.67,1.045 12.737,3.55 21.923,3.132"
              style="fill:none;stroke:#e6e6e6;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-             id="path204"
+             id="path204-1"
              inkscape:connector-curvature="0" />
         </g>
         <g
-           id="g206"
+           id="g206-6"
            transform="translate(228.5864,560.7612)">
           <path
              d="M 0,0 C 2.208,0.741 26.219,3.873 36.45,2.62"
              style="fill:none;stroke:#e6e6e6;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-             id="path208"
+             id="path208-5"
              inkscape:connector-curvature="0" />
         </g>
         <g
-           id="g210"
+           id="g210-7"
            transform="translate(232.6738,532.0635)">
           <path
              d="M 0,0 C 3.34,0 28.604,-0.627 43.219,0.626"
              style="fill:none;stroke:#e6e6e6;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-             id="path212"
+             id="path212-8"
              inkscape:connector-curvature="0" />
         </g>
         <g
-           id="g214"
+           id="g214-5"
            transform="translate(237.2671,502.832)">
           <path
              d="M 0,0 C 0,0 -15.45,16.494 -16.077,56.999 -15.45,56.999 -11.901,27.352 0,0"
              style="fill:#e6e6e6;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="path216"
+             id="path216-9"
              inkscape:connector-curvature="0" />
         </g>
         <g
-           id="g218"
+           id="g218-2"
            transform="translate(208.4541,526.6338)">
           <path
              d="m 0,0 c 0,0 6.472,-9.813 23.176,-19.417 0,0 -1.67,2.297 -2.715,4.176 0,0 -11.901,7.098 -20.461,15.241"
              style="fill:#e6e6e6;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="path220"
+             id="path220-7"
              inkscape:connector-curvature="0" />
         </g>
         <g
-           id="g222"
+           id="g222-3"
            transform="translate(234.083,503.877)">
           <path
              d="m 0,0 c 0,0 -18.738,3.967 -35.441,20.67 0,0 12.331,-11.737 33.21,-17.793 0,0 0.489,-1.174 2.231,-2.877"
              style="fill:#e6e6e6;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="path224"
+             id="path224-6"
              inkscape:connector-curvature="0" />
         </g>
         <g
-           id="g226"
+           id="g226-4"
            transform="translate(191.0205,509.0439)">
           <path
              d="m 0,0 c 0,0 22.811,-7.517 44.942,-7.778 0,0 -1.514,0.628 -2.036,1.776 0,0 -11.953,0.157 -42.906,6.002"
              style="fill:#e6e6e6;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="path228"
+             id="path228-7"
              inkscape:connector-curvature="0" />
         </g>
         <g
-           id="g230"
+           id="g230-9"
            transform="translate(232.5215,640.4814)">
           <path
              d="M 0,0 -1.554,-24.521 10.361,-21.758 0,0 Z"
              style="fill:#e6e6e6;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="path232"
+             id="path232-7"
              inkscape:connector-curvature="0" />
         </g>
         <g
-           id="g234"
+           id="g234-2"
            transform="translate(230.104,589.1958)">
           <path
              d="M 0,0 C 0,0 13.296,4.49 22.793,3.454 L 34.536,-25.211 -0.863,-27.974 0,0 Z"
              style="fill:#e6e6e6;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="path236"
+             id="path236-2"
              inkscape:connector-curvature="0" />
         </g>
         <g
-           id="g238"
+           id="g238-1"
            transform="translate(233.2124,532.0391)">
           <path
              d="m 0,0 c 0,0 28.319,-0.691 42.651,0.863 0,0 2.418,-8.979 4.49,-16.404 2.072,-7.425 5.526,-15.715 4.145,-15.887 -1.382,-0.172 -44.379,0.519 -44.379,0.519 0,0 -5.525,18.821 -6.907,30.909"
              style="fill:#e6e6e6;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             id="path240"
+             id="path240-6"
              inkscape:connector-curvature="0" />
         </g>
       </g>
